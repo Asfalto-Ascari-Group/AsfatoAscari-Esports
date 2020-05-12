@@ -3,6 +3,11 @@
 
 body, html {
   height: 100%;
+  width: 100%;
+}
+
+body {
+	margin: 0
 }
 
 .fpbgimg-1 {
@@ -16,4 +21,19 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.CenterObject {
+	width: 100%;
+	height: 100%;
+	text-align: center
+}
+.CenterCar {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	margin: 0;
+	height: 100%;
+	position: absolute;
+	object-fit: scale-down;
 }
