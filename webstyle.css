@@ -7,6 +7,14 @@ body, html {
 	
 }
 
+html {
+  margin: 0;
+  background-size: cover;
+  background: url("https://esports.asfaltoascari.com/img/design/") no-repeat center center fixed;
+  background-blend-mode: darken;
+  transition: 10s;
+}
+
 body {
 	overflow: hidden;
 	margin: 0
@@ -47,11 +55,13 @@ body {
 }
 
 #background img{
-  	background-image: url("/img/design/YellowGrad@2RES.png");
+	width: 100%;
 	background-position: center;
  	background-repeat: no-repeat;
  	background-size: cover;
 }
+
+
 .CenterObject {
 	position: relative;
 	height: 100%;

@@ -1,6 +1,6 @@
 var bgImageArray = ["YellowGrad@2RES.png", "BlueGrad@2RES.png", "RedGrad@2RES.png"],
 base = "/img/design/",
-secs = 10;
+secs = 0.1;
 bgImageArray.forEach(function(img){
     new Image().src = base + img; 
     // caches images, avoiding white flash between background replacements
