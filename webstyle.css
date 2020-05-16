@@ -16,6 +16,7 @@ body {
     position: absolute;
 	height:100%;
 	width:100%;
+	z-index: 2;
 }
 #content .Logotype {
     position: absolute;
@@ -36,20 +37,20 @@ body {
     width: 100%;
 	height:100%;
 	object-fit: contain;
+	
+}
+#background {
+    position: absolute;
+	height:100%;
+	width:100%;
+	z-index: 1;
 }
 
-.fpbgimg-1 {
-
-  /* The image used */
-  background-image: url("/img/design/YellowGrad@2RES.png");
-
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+#background img{
+  	background-image: url("/img/design/YellowGrad@2RES.png");
+	background-position: center;
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
 }
 .CenterObject {
 	position: relative;
