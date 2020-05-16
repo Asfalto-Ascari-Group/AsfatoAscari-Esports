@@ -15,12 +15,19 @@ body {
 #content {
     position: relative;
 }
-#content img {
+#content .Logotype {
     position: absolute;
     top: 2vw;
     right: 3vw;
 	z-index: 5;
 	width: 15%;
+}
+#content .MaintenanceText {
+    position: absolute;
+    top: 2vw;
+    left: 3vw;
+	z-index: 5;
+	width: 35%;
 }
 
 .fpbgimg-1 {
@@ -37,10 +44,9 @@ body {
   background-size: cover;
 }
 .CenterObject {
-	
-	width: 100%;
+	position: relative;
 	height: 100%;
-	text-align: center;
+	width: 100%;
 }
 .CenterCar {
 	display: block;
@@ -52,3 +58,15 @@ body {
 	position: absolute;
 	object-fit: scale-down;
 }
+
+.TitleBlock, .CenterText {
+   object-fit: scale-down;
+   position: absolute;
+   top: 0%;
+   left: 0%;
+   width: 500px;
+   height: 3vw;
+   margin-top: 0; /* Half the height */
+   margin-left: 0; /* Half the width */
+
+
